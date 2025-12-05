@@ -1,0 +1,20 @@
+{
+    "bma_ScheduleList": [
+        {
+            "bma_Date": "2024-04-17",
+            "bma_Subject": "Математика",
+            "bma_Teacher": "Иванов И.И.",
+            "bma_Room": "101",
+            "bma_TimeStart": "09:00",
+            "bma_TimeEnd": "10:30"
+        },
+        {
+            "bma_Date": "2024-04-17",
+            "bma_Subject": "Физика",
+            "bma_Teacher": "Петров П.П.",
+            "bma_Room": "203",
+            "bma_TimeStart": "10:45",
+            "bma_TimeEnd": "12:15"
+        }
+    ]
+}

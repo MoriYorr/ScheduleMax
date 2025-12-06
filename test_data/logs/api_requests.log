@@ -1,0 +1,1402 @@
+{
+    "timestamp": "2025-12-06 16:50:22",
+    "method": "POST",
+    "uri": "/v1/bulk/groups",
+    "body": [
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "А-22101",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "А-22201",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "А-23101",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "А-24101",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "А-24101 ип1",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "А-24101 ип2",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "А-24201",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "А-25101",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "А-25201",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гд-20104",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гд-21104",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гд-21204",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гд-22104",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гд-22204",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гд-23104",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гд-23204",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гд-24104",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гд-24204",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гд-25104",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гд-25204",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гэм-22106",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гэм-22206",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гэм-23106",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гэм-23206",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гэм-24106",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гэм-24206",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гэм-25106",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Гэм-25206",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Ит-23107 гр.1",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Ит-23107 гр.2",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Ит-23107 гр.3",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Ит-23207",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Ит-2322з",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Ит-24107 гр.1",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Ит-24107 гр.2",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Ит-24107 гр.3",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Ит-24207",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Ит-25107",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Ит-25207",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Лд-24108",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "М-22102",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "М-22202",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "М-23102",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "М-23202",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "М-2320з",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "М-24102",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "М-24202",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "М-2423з",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "М-2423з гр.2",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "М-25102",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "М-25102 ип П",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "М-25202",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Мо-2525з",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-22105",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-22205",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-23105",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-23205",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-24105",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-24105 ип1",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-24105 ип3",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-24205",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-25105",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-25105 ип Ми",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-25105 ипК",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-25105 ипК М",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-25105 ипМа",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-25105 ипС",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Т-25205",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эк-2321з",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эк-25109",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-22103",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-2219з",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 4,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-22203",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-23103",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 3,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-23203",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-24103",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-24103 ип",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-24203",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 2,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-2424з",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-25103",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-25103 ипК",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-25203",
+            "specialityCode": "53.09.05"
+        },
+        {
+            "courseNumber": 1,
+            "educationForm": "FULLTIME",
+            "educationLevel": "BACHELOR",
+            "facultyId": "2129439801",
+            "groupCode": "883АСП",
+            "groupId": "45235678956",
+            "groupName": "Эн-2526з",
+            "specialityCode": "53.09.05"
+        }
+    ]
+}
+{
+    "timestamp": "2025-12-06 16:50:22",
+    "method": "POST",
+    "uri": "/v1/bulk/sub_groups",
+    "body": [
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "ип1",
+            "subGroupId": "873642346873",
+            "subGroupName": "А-24101 ип1"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "ип2",
+            "subGroupId": "873642346873",
+            "subGroupName": "А-24101 ип2"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "гр.1",
+            "subGroupId": "873642346873",
+            "subGroupName": "Ит-23107 гр.1"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "гр.2",
+            "subGroupId": "873642346873",
+            "subGroupName": "Ит-23107 гр.2"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "гр.3",
+            "subGroupId": "873642346873",
+            "subGroupName": "Ит-23107 гр.3"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "гр.1",
+            "subGroupId": "873642346873",
+            "subGroupName": "Ит-24107 гр.1"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "гр.2",
+            "subGroupId": "873642346873",
+            "subGroupName": "Ит-24107 гр.2"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "гр.3",
+            "subGroupId": "873642346873",
+            "subGroupName": "Ит-24107 гр.3"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "гр.2",
+            "subGroupId": "873642346873",
+            "subGroupName": "М-2423з гр.2"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "ип П",
+            "subGroupId": "873642346873",
+            "subGroupName": "М-25102 ип П"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "ип1",
+            "subGroupId": "873642346873",
+            "subGroupName": "Т-24105 ип1"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "ип3",
+            "subGroupId": "873642346873",
+            "subGroupName": "Т-24105 ип3"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "ип Ми",
+            "subGroupId": "873642346873",
+            "subGroupName": "Т-25105 ип Ми"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "ипК",
+            "subGroupId": "873642346873",
+            "subGroupName": "Т-25105 ипК"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "ипК М",
+            "subGroupId": "873642346873",
+            "subGroupName": "Т-25105 ипК М"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "ипМа",
+            "subGroupId": "873642346873",
+            "subGroupName": "Т-25105 ипМа"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "ипС",
+            "subGroupId": "873642346873",
+            "subGroupName": "Т-25105 ипС"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "ип",
+            "subGroupId": "873642346873",
+            "subGroupName": "Эн-24103 ип"
+        },
+        {
+            "groupIds": [
+                "53453453454353"
+            ],
+            "subGroupCode": "ипК",
+            "subGroupId": "873642346873",
+            "subGroupName": "Эн-25103 ипК"
+        }
+    ]
+}
+{
+    "timestamp": "2025-12-06 16:50:22",
+    "method": "POST",
+    "uri": "/v1/bulk/events",
+    "body": [
+        {
+            "eventDateEnd": 1762765200,
+            "eventDateStart": 1762759800,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:9906fe6d-7506-4279-ada6-8e90737dc6c9",
+            "eventLinkCall": "https://tu-ugmk.ktalk.ru/dash9mgh900x",
+            "eventLinkMaterials": "",
+            "eventName": "Моделирование технологических систем и процессов",
+            "eventType": "Лекции",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1762765200,
+            "roomIds": [
+                "f584bbb2-762c-11ed-b80c-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b6c0-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1762771200,
+            "eventDateStart": 1762765800,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:9906fe6d-7506-4279-ada6-8e90737dc6c9",
+            "eventLinkCall": "https://tu-ugmk.ktalk.ru/dash9mgh900x",
+            "eventLinkMaterials": "",
+            "eventName": "Моделирование технологических систем и процессов",
+            "eventType": "Лекции",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1762771200,
+            "roomIds": [
+                "f584bbb2-762c-11ed-b80c-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b6c0-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1762797000,
+            "eventDateStart": 1762791600,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:b52dcab7-819a-4c5e-a80a-4f3024413647",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Роботизированные системы и комплексы",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1762797000,
+            "roomIds": [
+                "2355c23e-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "78df7c0a-773b-11f0-b44a-00155d7f1420"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1762803000,
+            "eventDateStart": 1762797600,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:b52dcab7-819a-4c5e-a80a-4f3024413647",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Роботизированные системы и комплексы",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1762803000,
+            "roomIds": [
+                "2355c23e-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "78df7c0a-773b-11f0-b44a-00155d7f1420"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1762950000,
+            "eventDateStart": 1762944600,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:1629cf60-c303-44e1-93ae-d6528ac0b254",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Вычислительные машины и системы",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1762950000,
+            "roomIds": [
+                "2355c22a-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b6be-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1762957800,
+            "eventDateStart": 1762952400,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:1629cf60-c303-44e1-93ae-d6528ac0b254",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Вычислительные машины и системы",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1762957800,
+            "roomIds": [
+                "2355c22a-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b6be-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763056200,
+            "eventDateStart": 1763050800,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:84fd7e12-f186-47a6-b7dd-a520d8878971",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Интерфейсы и протоколы полевых шин передачи данных",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763056200,
+            "roomIds": [
+                "2355c23e-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b6b1-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763062200,
+            "eventDateStart": 1763056800,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:84fd7e12-f186-47a6-b7dd-a520d8878971",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Интерфейсы и протоколы полевых шин передачи данных",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763062200,
+            "roomIds": [
+                "2355c23e-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b6b1-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763116800,
+            "eventDateStart": 1763111400,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:61f40988-e9a6-46a7-a5d5-7d0b3df16334",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Управление проектами и программами",
+            "eventType": "Лекции",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763116800,
+            "roomIds": [
+                "2355c23d-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b69d-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763122800,
+            "eventDateStart": 1763117400,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:61f40988-e9a6-46a7-a5d5-7d0b3df16334",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Управление проектами и программами",
+            "eventType": "Лекции",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763122800,
+            "roomIds": [
+                "2355c23d-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b69d-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763130600,
+            "eventDateStart": 1763125200,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:898c833a-42d7-4f2f-a486-a577095c9e40",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Управление проектами и программами",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763130600,
+            "roomIds": [
+                "2355c23d-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b69d-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763136600,
+            "eventDateStart": 1763131200,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:898c833a-42d7-4f2f-a486-a577095c9e40",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Управление проектами и программами",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763136600,
+            "roomIds": [
+                "2355c23d-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b69d-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763142600,
+            "eventDateStart": 1763137200,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:84fd7e12-f186-47a6-b7dd-a520d8878971",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Интерфейсы и протоколы полевых шин передачи данных",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763142600,
+            "roomIds": [
+                "2355c23e-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b6b1-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763197200,
+            "eventDateStart": 1763191800,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:8f9881e2-7233-4512-831f-5fffbaa59bf1",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Программно-технические комплексы",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763197200,
+            "roomIds": [
+                "2355c23e-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b60b-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763203200,
+            "eventDateStart": 1763197800,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:8f9881e2-7233-4512-831f-5fffbaa59bf1",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Программно-технические комплексы",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763203200,
+            "roomIds": [
+                "2355c23e-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b60b-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763209200,
+            "eventDateStart": 1763203800,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:d0beacb8-98e8-4f72-90e6-28dbdb295621",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Наладка и эксплуатация систем управления",
+            "eventType": "Лекции",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763209200,
+            "roomIds": [
+                "2355c23e-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b60b-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763217000,
+            "eventDateStart": 1763211600,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:d0beacb8-98e8-4f72-90e6-28dbdb295621",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Наладка и эксплуатация систем управления",
+            "eventType": "Лекции",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763217000,
+            "roomIds": [
+                "2355c23e-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b60b-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763223000,
+            "eventDateStart": 1763217600,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:84fd7e12-f186-47a6-b7dd-a520d8878971",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Интерфейсы и протоколы полевых шин передачи данных",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763223000,
+            "roomIds": [
+                "2355c23e-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b6b1-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        },
+        {
+            "eventDateEnd": 1763229000,
+            "eventDateStart": 1763223600,
+            "eventId": "f03e9b32-3f9d-11f0-b44a-00155d7f1420:84fd7e12-f186-47a6-b7dd-a520d8878971",
+            "eventLinkCall": "",
+            "eventLinkMaterials": "",
+            "eventName": "Интерфейсы и протоколы полевых шин передачи данных",
+            "eventType": "Практические",
+            "groupId": [
+                "7280bf14-098b-11ed-b935-005056953b1b:8eb6188a-0c13-11ed-b935-005056953b1b"
+            ],
+            "recurrenceDateEnd": 1763229000,
+            "roomIds": [
+                "2355c23e-2bcd-11e7-b191-005056953b1b"
+            ],
+            "subGroupId": "",
+            "teacherIds": [
+                "22c0b6b1-b8b7-11eb-aebd-005056953b1b"
+            ],
+            "weeklyRecurrence": 1
+        }
+    ]
+}

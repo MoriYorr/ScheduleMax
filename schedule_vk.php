@@ -7,6 +7,7 @@ declare(strict_types=1);
  */
 class ConnectionTo1C
 {
+    private bool $test_mode = true;
     /**
      * Устанавливает соединение с 1С
      *
@@ -38,6 +39,12 @@ class ConnectionTo1C
      */
     public function get_group(): ?object
     {
+        if ($this->test_mode) {
+            // Читаем JSON напрямую
+            $json_data = file_get_contents('test_data/groups_real.json');
+            return json_decode($json_data);
+        }
+        
         $connection = $this->connect_to_1c();
         
         try {
@@ -47,11 +54,6 @@ class ConnectionTo1C
             echo "Ошибка SOAP: " . $e->getMessage() . "\n";
             return null;
         }
-        
-        file_put_contents(
-            'test_data/group.json',
-            json_encode($response, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
-        );
         
         return $response;
     }
@@ -69,6 +71,12 @@ class ConnectionTo1C
         string $schedule_object_id,
         string $date_begin
     ): ?object {
+        if ($this->test_mode) {
+            // Читаем JSON напрямую
+            $json_data = file_get_contents('test_data/schedule_real.json');
+            return json_decode($json_data);
+        }
+        
         $connection = $this->connect_to_1c();
         
         try {
@@ -85,10 +93,12 @@ class ConnectionTo1C
             return null;
         }
         
-        $json_data = json_encode($response, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
-        file_put_contents("test_data/{$schedule_object_id}.json", $json_data);
-        
         return $response;
+    }
+
+    public function set_test_mode(bool $mode): void
+    {
+        $this->test_mode = $mode;
     }
 }
 
@@ -107,13 +117,19 @@ class ScheduleVK
      */
     private array $token;
     
+    private string $base_url;
+
     /**
      * Конструктор класса
      */
-    public function __construct()
+    public function __construct(bool $use_mock = false)
     {
         $this->one_c = new ConnectionTo1C();
         $this->token = json_decode(file_get_contents('token.json'), true);
+
+        $this->base_url = $use_mock 
+            ? 'http://localhost:8000' 
+            : 'https://schedule.vk-apps.com';
     }
 
     /**
@@ -127,17 +143,21 @@ class ScheduleVK
     private function send_request(string $end_point, array $schedule_data): void
     {
         $curlOptions = [
-            CURLOPT_URL            => 'https://schedule.vk-apps.com' . $end_point,
-            CURLOPT_POST           => 1,
+            CURLOPT_URL => $this->base_url . $end_point,
+            CURLOPT_POST => 1,
             CURLOPT_RETURNTRANSFER => 1,
             CURLOPT_FOLLOWLOCATION => 1,
-            CURLOPT_HTTPHEADER     => [
-                'Content-Type: application/json',
+            CURLOPT_HTTPHEADER => [
+                'Content-Type: application/json; charset=utf-8',
                 'Authorization: Bearer ' . $this->token['token']
             ]
         ];
             
-        $json_req = json_encode($schedule_data, JSON_UNESCAPED_UNICODE);
+        $json_req = json_encode(
+            $schedule_data, 
+            JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT
+        );
+        
         $curlOptions[CURLOPT_POSTFIELDS] = $json_req;
             
         $ch = curl_init();
@@ -177,8 +197,8 @@ class ScheduleVK
             $current_year = intval(substr(date("Y"), 2, 2));
             
             // Определяем номер курса
-            $courseNumber = 4 - ($current_year - $course_number);
-            
+            $courseNumber = $current_year - $course_number + 1;
+
             // Ограничиваем диапазон 1-4
             $courseNumber = max(1, min(4, $courseNumber));
 

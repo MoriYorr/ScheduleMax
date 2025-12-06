@@ -1,0 +1,253 @@
+{
+    "bma_GroupList": [
+        {
+            "bma_GroupName": "А-22101"
+        },
+        {
+            "bma_GroupName": "А-22201"
+        },
+        {
+            "bma_GroupName": "А-23101"
+        },
+        {
+            "bma_GroupName": "А-24101"
+        },
+        {
+            "bma_GroupName": "А-24101 ип1"
+        },
+        {
+            "bma_GroupName": "А-24101 ип2"
+        },
+        {
+            "bma_GroupName": "А-24201"
+        },
+        {
+            "bma_GroupName": "А-25101"
+        },
+        {
+            "bma_GroupName": "А-25201"
+        },
+        {
+            "bma_GroupName": "Гд-20104"
+        },
+        {
+            "bma_GroupName": "Гд-21104"
+        },
+        {
+            "bma_GroupName": "Гд-21204"
+        },
+        {
+            "bma_GroupName": "Гд-22104"
+        },
+        {
+            "bma_GroupName": "Гд-22204"
+        },
+        {
+            "bma_GroupName": "Гд-23104"
+        },
+        {
+            "bma_GroupName": "Гд-23204"
+        },
+        {
+            "bma_GroupName": "Гд-24104"
+        },
+        {
+            "bma_GroupName": "Гд-24204"
+        },
+        {
+            "bma_GroupName": "Гд-25104"
+        },
+        {
+            "bma_GroupName": "Гд-25204"
+        },
+        {
+            "bma_GroupName": "Гэм-22106"
+        },
+        {
+            "bma_GroupName": "Гэм-22206"
+        },
+        {
+            "bma_GroupName": "Гэм-23106"
+        },
+        {
+            "bma_GroupName": "Гэм-23206"
+        },
+        {
+            "bma_GroupName": "Гэм-24106"
+        },
+        {
+            "bma_GroupName": "Гэм-24206"
+        },
+        {
+            "bma_GroupName": "Гэм-25106"
+        },
+        {
+            "bma_GroupName": "Гэм-25206"
+        },
+        {
+            "bma_GroupName": "Ит-23107 гр.1"
+        },
+        {
+            "bma_GroupName": "Ит-23107 гр.2"
+        },
+        {
+            "bma_GroupName": "Ит-23107 гр.3"
+        },
+        {
+            "bma_GroupName": "Ит-23207"
+        },
+        {
+            "bma_GroupName": "Ит-2322з"
+        },
+        {
+            "bma_GroupName": "Ит-24107 гр.1"
+        },
+        {
+            "bma_GroupName": "Ит-24107 гр.2"
+        },
+        {
+            "bma_GroupName": "Ит-24107 гр.3"
+        },
+        {
+            "bma_GroupName": "Ит-24207"
+        },
+        {
+            "bma_GroupName": "Ит-25107"
+        },
+        {
+            "bma_GroupName": "Ит-25207"
+        },
+        {
+            "bma_GroupName": "Лд-24108"
+        },
+        {
+            "bma_GroupName": "М-22102"
+        },
+        {
+            "bma_GroupName": "М-22202"
+        },
+        {
+            "bma_GroupName": "М-23102"
+        },
+        {
+            "bma_GroupName": "М-23202"
+        },
+        {
+            "bma_GroupName": "М-2320з"
+        },
+        {
+            "bma_GroupName": "М-24102"
+        },
+        {
+            "bma_GroupName": "М-24202"
+        },
+        {
+            "bma_GroupName": "М-2423з"
+        },
+        {
+            "bma_GroupName": "М-2423з гр.2"
+        },
+        {
+            "bma_GroupName": "М-25102"
+        },
+        {
+            "bma_GroupName": "М-25102 ип П"
+        },
+        {
+            "bma_GroupName": "М-25202"
+        },
+        {
+            "bma_GroupName": "Мо-2525з"
+        },
+        {
+            "bma_GroupName": "Т-22105"
+        },
+        {
+            "bma_GroupName": "Т-22205"
+        },
+        {
+            "bma_GroupName": "Т-23105"
+        },
+        {
+            "bma_GroupName": "Т-23205"
+        },
+        {
+            "bma_GroupName": "Т-24105"
+        },
+        {
+            "bma_GroupName": "Т-24105 ип1"
+        },
+        {
+            "bma_GroupName": "Т-24105 ип3"
+        },
+        {
+            "bma_GroupName": "Т-24205"
+        },
+        {
+            "bma_GroupName": "Т-25105"
+        },
+        {
+            "bma_GroupName": "Т-25105 ип Ми"
+        },
+        {
+            "bma_GroupName": "Т-25105 ипК"
+        },
+        {
+            "bma_GroupName": "Т-25105 ипК М"
+        },
+        {
+            "bma_GroupName": "Т-25105 ипМа"
+        },
+        {
+            "bma_GroupName": "Т-25105 ипС"
+        },
+        {
+            "bma_GroupName": "Т-25205"
+        },
+        {
+            "bma_GroupName": "Эк-2321з"
+        },
+        {
+            "bma_GroupName": "Эк-25109"
+        },
+        {
+            "bma_GroupName": "Эн-22103"
+        },
+        {
+            "bma_GroupName": "Эн-2219з"
+        },
+        {
+            "bma_GroupName": "Эн-22203"
+        },
+        {
+            "bma_GroupName": "Эн-23103"
+        },
+        {
+            "bma_GroupName": "Эн-23203"
+        },
+        {
+            "bma_GroupName": "Эн-24103"
+        },
+        {
+            "bma_GroupName": "Эн-24103 ип"
+        },
+        {
+            "bma_GroupName": "Эн-24203"
+        },
+        {
+            "bma_GroupName": "Эн-2424з"
+        },
+        {
+            "bma_GroupName": "Эн-25103"
+        },
+        {
+            "bma_GroupName": "Эн-25103 ипК"
+        },
+        {
+            "bma_GroupName": "Эн-25203"
+        },
+        {
+            "bma_GroupName": "Эн-2526з"
+        }
+    ]
+}

@@ -29,7 +29,7 @@ try {
 
 echo "--- Тест 3: Отправка расписания ---\n";
 try {
-    $vk->send_schedule('AcademicGroup', 'A-22101', '10.11.2025');
+    $vk->send_schedule_group('AcademicGroup', 'A-22101', '10.11.2025');
     echo "✓ Расписание отправлено успешно\n\n";
 } catch (Exception $e) {
     echo "✗ Ошибка: " . $e->getMessage() . "\n\n";

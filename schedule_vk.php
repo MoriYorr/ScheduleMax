@@ -40,7 +40,6 @@ class ConnectionTo1C
     public function get_group(): ?object
     {
         if ($this->test_mode) {
-            // Читаем JSON напрямую
             $json_data = file_get_contents('test_data/groups_real.json');
             return json_decode($json_data);
         }
@@ -66,13 +65,12 @@ class ConnectionTo1C
      * @param string $date_begin Дата начала в формате d.m.Y
      * @return object|null Объект с расписанием или null при ошибке
      */
-    public function get_schedule(
+    public function get_schedule_group(
         string $schedule_object_type,
         string $schedule_object_id,
         string $date_begin
     ): ?object {
         if ($this->test_mode) {
-            // Читаем JSON напрямую
             $json_data = file_get_contents('test_data/schedule_real.json');
             return json_decode($json_data);
         }
@@ -196,10 +194,8 @@ class ScheduleVK
             $course_number = intval(substr(explode("-", $group_name)[1], 0, 2));
             $current_year = intval(substr(date("Y"), 2, 2));
             
-            // Определяем номер курса
             $courseNumber = $current_year - $course_number + 1;
 
-            // Ограничиваем диапазон 1-4
             $courseNumber = max(1, min(4, $courseNumber));
 
             $groups[] = [
@@ -237,7 +233,6 @@ class ScheduleVK
             $group_name = $group->bma_GroupName;
             $parts = explode(' ', $group_name);
 
-            // Проверяем наличие подгруппы (есть что-то после основной группы)
             if (count($parts) > 1) {
                 $sub_group_suffix = implode(' ', array_slice($parts, 1));
                 
@@ -250,7 +245,6 @@ class ScheduleVK
             }
         }
 
-        // Отправляем только если есть подгруппы
         if (!empty($sub_groups)) {
             $this->send_request("/v1/bulk/sub_groups", $sub_groups);
         } else {
@@ -266,12 +260,12 @@ class ScheduleVK
      * @param string $date_begin Дата начала
      * @return void
      */
-    public function send_schedule(
+    public function send_schedule_group(
         string $schedule_object_type,
         string $schedule_object_id,
         string $date_begin
     ): void {
-        $response = $this->one_c->get_schedule(
+        $response = $this->one_c->get_schedule_group(
             $schedule_object_type,
             $schedule_object_id,
             $date_begin
@@ -284,12 +278,12 @@ class ScheduleVK
         }
 
         $schedule = [];
+        $group = '';
         
         foreach ($response->Week as $week) {
             foreach ($week->ProjectSchedule as $project) {
                 foreach ($project->Day as $day) {
                     foreach ($day->ScheduleCell as $cell) {
-                        // Пропускаем пустые слоты
                         if (empty($cell->Lesson)) {
                             continue;
                         }
@@ -297,36 +291,33 @@ class ScheduleVK
                         foreach ($cell->Lesson as $lesson) {
                             $date = new DateTime();
                             
-                            // Преобразуем DateEndReal в timestamp
                             $date_array = $lesson->DateEndReal;
                             $date->setDate($date_array[0], $date_array[1], $date_array[2]);
                             $date->setTime($date_array[3], $date_array[4], 0);
                             $event_date_end = $date->getTimestamp();
 
-                            // Преобразуем DateBeginReal в timestamp
                             $date_array = $lesson->DateBeginReal;
                             $date->setDate($date_array[0], $date_array[1], $date_array[2]);
                             $date->setTime($date_array[3], $date_array[4], 0);
                             $event_date_start = $date->getTimestamp();
 
-                            // Собираем ID преподавателей
                             $teacherIds = [];
                             foreach ($lesson->Teacher as $teacher) {
                                 $teacherIds[] = $teacher->EmployerRef->ReferenceUID;
                             }
 
-                            // Проверяем и очищаем ссылку на звонок
                             $eventLinkCall = $lesson->Classroom[0]->bma_Link ?? '';
                             if ($eventLinkCall === 'None') {
                                 $eventLinkCall = '';
                             }
+                            $group = $lesson->AcademicGroup[0]->AcademicGroupCompoundKey;
 
                             $schedule[] = [
                                 'eventDateEnd' => $event_date_end,
                                 'eventDateStart' => $event_date_start,
                                 'eventId' => $lesson->LessonCompoundKey,
                                 'eventLinkCall' => $eventLinkCall,
-                                'eventLinkMaterials' => '',
+                                'eventLinkMaterials' => '', // TODO. Неизвестный параметр
                                 'eventName' => $lesson->Subject,
                                 'eventType' => $lesson->LessonType,
                                 'groupId' => [$lesson->AcademicGroup[0]->AcademicGroupCompoundKey],
@@ -334,7 +325,7 @@ class ScheduleVK
                                 'roomIds' => [$lesson->Classroom[0]->ClassroomUID],
                                 'subGroupId' => '', // TODO. Неизвестный параметр
                                 'teacherIds' => $teacherIds,
-                                'weeklyRecurrence' => 1
+                                'weeklyRecurrence' => 1 // TODO. Неизвестный параметр
                             ];
                         }
                     }
@@ -342,6 +333,6 @@ class ScheduleVK
             }
         }
 
-        $this->send_request("/v1/bulk/events", $schedule);
+        $this->send_request("/v1/bulk/events/" . $group, $schedule);
     }
 }
